@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Webesshop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b311e8c9d54d97fc6c161b823f9efa02e0ee48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1a90ce956f57313788187f85c1915f16d6721ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Webesshop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Webesshop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
