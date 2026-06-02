@@ -9,6 +9,10 @@ namespace Webesshop
     /// </summary>
     public partial class App : Application
     {
+        static string dataBase = "Webesshop.db";
+        static string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        public static string databasePath = System.IO.Path.Combine(path, dataBase);
+
     }
 
 }

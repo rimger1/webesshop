@@ -5,9 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Webesshop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
-        <StackPanel></StackPanel>
-        <StackPanel></StackPanel>
+        Title="Webesshop" Height="450" Width="800"
+        WindowState="Maximized">
+    <Window.Resources>
+        <ResourceDictionary Source="Resources/Dictionary1.xaml" />
+    </Window.Resources>
+
+    <DockPanel Background="GreenYellow">
+        <StackPanel DockPanel.Dock="Top" Height="70" Background="DarkKhaki" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button
+                    x:Name="ertekessegekmenu"
+                    Content="Értékességek"
+                    MouseLeftButtonUp="ertekessegekmenu_MouseLeftButtonUp"
+                    Style="{StaticResource ResourceKey=listitemstyle}" />
+                <Button
+                    x:Name="felhasznalokmenu"
+                    Content="Felhasznalok"
+                    MouseLeftButtonUp="felhasznalokmenu_MouseLeftButtonUp"
+                    Style="{StaticResource ResourceKey=listitemstyle}" />
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Left">
+            <TextBlock Width="70" FontSize="60" Foreground="Fuchsia" FontWeight="ExtraBlack" TextAlignment="Center" Background="Black">
+                W<LineBreak/>
+                E<LineBreak/>
+                B<LineBreak/>
+                E<LineBreak/>
+                S<LineBreak/>
+                S<LineBreak/>
+                H<LineBreak/>
+                O<LineBreak/>
+                P<LineBreak/>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel x:Name="feladatpanel" DockPanel.Dock="Right" />
     </DockPanel>
 </Window>
