@@ -28,6 +28,8 @@ namespace Webesshop
 
         private void felhasznalokmenu_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
+            feladatpanel.Children.Clear();
+            feladatpanel.Children.Add(new UserControls.UserControlFelhasznalok());
 
         }
     }

@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Webesshop.UserControls.UserControlFelhasznalok"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Webesshop.UserControls">
+    <StackPanel>
+        <DataGrid
+            x:Name="datagridfelhasznalok"
+            Width="1100"
+            Height="600"
+            AutoGenerateColumns="False"
+            CanUserAddRows="False"
+            CanUserDeleteRows="False"
+            IsReadOnly="True"
+            SelectionChanged="datagridfelhasznalok_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="ID" />
+                <DataGridTextColumn Binding="{Binding FelhasznaloNev}" Header="felhasznalonev" />
+                <DataGridTextColumn Binding="{Binding Jelszo}" Header="felhasznalonev" />
+                <DataGridTextColumn Binding="{Binding TeljeNev}" Header="Teljesnev" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <WrapPanel Margin="130,10,130,0">
+            <StackPanel Width="300" Background="LightGray">
+                <TextBlock>felhasnalonev:</TextBlock>
+                <TextBox x:Name="felhasznalonevTxt" />
+                <TextBlock>teljesnev:</TextBlock>
+                <TextBox x:Name="teljesnevTxt" />
+                <TextBlock>jelszo:</TextBlock>
+                <PasswordBox x:Name="jelszoText" />
+            </StackPanel>
+            <StackPanel>
+                <Button
+                    x:Name="mentesBtn"
+                    Width="200"
+                    Background="Green"
+                    Click="mentesBtn_Click"
+                    Content="Mentés"
+                    Foreground="White"
+                    Visibility="Visible" />
+                <Button
+                    x:Name="torlesBtn"
+                    Width="200"
+                    Background="red"
+                    Click="torlesBtn_Click"
+                    Content="Törlés"
+                    Foreground="White"
+                    Visibility="Hidden" />
+                <Button
+                    x:Name="modBtn"
+                    Width="200"
+                    Background="Yellow"
+                    Click="modBtn_Click"
+                    Content="Módosítás"
+                    Foreground="White"
+                    Visibility="Hidden" />
+            </StackPanel>
+        </WrapPanel>
+    </StackPanel>
+</UserControl>

@@ -48,3 +48,5 @@ D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\refint\W
 D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\Webesshop.pdb
 D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\Webesshop.genruntimeconfig.cache
 D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\ref\Webesshop.dll
+D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\UserControls\UserControlFelhasznalok.g.cs
+D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\UserControls\UserControlFelhasznalok.baml

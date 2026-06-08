@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\_rimoczigergo\webesshop\Webesshop\Webesshop\App.xaml
-2-946761234
+3-990825378
 
-101156087393
+11-640323938
 2021118843858
-MainWindow.xaml;Resources\Dictionary1.xaml;
+MainWindow.xaml;Resources\Dictionary1.xaml;UserControls\UserControlFelhasznalok.xaml;
 
-False
+True
 
