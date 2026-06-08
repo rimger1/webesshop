@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_rimoczigergo\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\
+C:\Users\rimog\Desktop\projektek\_12\webesshop\Webesshop\Webesshop\obj\Debug\net8.0-windows\
 Webesshop
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\_rimoczigergo\webesshop\Webesshop\Webesshop\App.xaml
-3-990825378
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\rimog\Desktop\projektek\_12\webesshop\Webesshop\Webesshop\App.xaml
+5807506415
 
-11-640323938
-2021118843858
-MainWindow.xaml;Resources\Dictionary1.xaml;UserControls\UserControlFelhasznalok.xaml;
+14-707204385
+202-1189530773
+login.xaml;MainWindow.xaml;Resources\Dictionary1.xaml;UserControls\UserControlFelhasznalok.xaml;UserControls\UserControlTermekek.xaml;
 
 True
 

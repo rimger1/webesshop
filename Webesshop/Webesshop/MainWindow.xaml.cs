@@ -20,17 +20,18 @@ namespace Webesshop
         {
             InitializeComponent();
         }
-
-        private void ertekessegekmenu_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void felhasznalokmenu_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+  
+        private void felhasznalokmenu_Click(object sender, RoutedEventArgs e)
         {
             feladatpanel.Children.Clear();
             feladatpanel.Children.Add(new UserControls.UserControlFelhasznalok());
 
+        }
+
+        private void ertekessegekmenu_Click(object sender, RoutedEventArgs e)
+        {
+            feladatpanel.Children.Clear();
+            feladatpanel.Children.Add(new UserControls.UserControlTermekek());
         }
     }
 }

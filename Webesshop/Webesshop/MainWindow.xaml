@@ -16,12 +16,12 @@
                 <Button
                     x:Name="ertekessegekmenu"
                     Content="Értékességek"
-                    MouseLeftButtonUp="ertekessegekmenu_MouseLeftButtonUp"
+                    Click="ertekessegekmenu_Click"
                     Style="{StaticResource ResourceKey=listitemstyle}" />
                 <Button
                     x:Name="felhasznalokmenu"
                     Content="Felhasznalok"
-                    MouseLeftButtonUp="felhasznalokmenu_MouseLeftButtonUp"
+                    Click="felhasznalokmenu_Click"
                     Style="{StaticResource ResourceKey=listitemstyle}" />
         </StackPanel>
         <StackPanel DockPanel.Dock="Left">

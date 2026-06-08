@@ -17,12 +17,11 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Id}" Header="ID" />
                 <DataGridTextColumn Binding="{Binding FelhasznaloNev}" Header="felhasznalonev" />
-                <DataGridTextColumn Binding="{Binding Jelszo}" Header="felhasznalonev" />
-                <DataGridTextColumn Binding="{Binding TeljeNev}" Header="Teljesnev" />
+                <DataGridTextColumn Binding="{Binding TeljesNev}" Header="Teljesnev" />
 
             </DataGrid.Columns>
         </DataGrid>
-        <WrapPanel Margin="130,10,130,0">
+        <WrapPanel Margin="730,10,130,0">
             <StackPanel Width="300" Background="LightGray">
                 <TextBlock>felhasnalonev:</TextBlock>
                 <TextBox x:Name="felhasznalonevTxt" />

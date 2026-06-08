@@ -301,24 +301,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rimoczigergo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\rimog\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_rimoczigergo\\webesshop\\Webesshop\\Webesshop\\Webesshop.csproj",
+      "projectUniqueName": "C:\\Users\\rimog\\Desktop\\projektek\\_12\\webesshop\\Webesshop\\Webesshop\\Webesshop.csproj",
       "projectName": "Webesshop",
-      "projectPath": "D:\\_rimoczigergo\\webesshop\\Webesshop\\Webesshop\\Webesshop.csproj",
-      "packagesPath": "C:\\Users\\rimoczigergo\\.nuget\\packages\\",
-      "outputPath": "D:\\_rimoczigergo\\webesshop\\Webesshop\\Webesshop\\obj\\",
+      "projectPath": "C:\\Users\\rimog\\Desktop\\projektek\\_12\\webesshop\\Webesshop\\Webesshop\\Webesshop.csproj",
+      "packagesPath": "C:\\Users\\rimog\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rimog\\Desktop\\projektek\\_12\\webesshop\\Webesshop\\Webesshop\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rimoczigergo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rimog\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -343,8 +338,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -374,7 +368,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
